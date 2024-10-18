@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vestidos de Novia 👰‍♀️</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        #encuesta {
+            display: none;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        #resultado {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .nav button {
+            padding: 10px 15px;
+            font-size: 16px;
+        }
+        /* Estilos para el logo */
+        #logo {
+            width: 15%; /* Tamaño específico para el logo */
+            float: left; /* Alinea el logo a la izquierda */
+            margin-right: 20px; /* Espacio a la derecha del logo */
+        }
+        /* Estilos para el contenedor de imágenes */
+        .image-container {
+            display: flex; /* Alinea las imágenes horizontalmente */
+            justify-content: center; /* Centra las imágenes en el contenedor */
+            flex-wrap: wrap; /* Permite que las imágenes se ajusten si no caben */
+            gap: 10px; /* Espacio entre imágenes */
+        }
+        .image-container img {
+            width: 45%; /* Ajusta el tamaño de las imágenes */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img id="logo" src="C:\Users\Jocelin Flores\Downloads\Firefly logo de vestidos de novia 7848 (1).jpg" alt="Logo">
+        <h1>Vestidos de Novia</h1>
+
+        <video width="100%" controls>
+                        <source src="C:\Users\Jocelin Flores\Downloads\invideo-ai-1080 ¡Descubre los Vestidos de Novia Más Herm 2024-10-18.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+
+        <div id="informacion">
+            <p>Descubre los diferentes estilos de vestidos de novia, desde los más clásicos hasta los más modernos.</p>
+            <div class="image-container">
+                <img src="C:\Users\Jocelin Flores\Downloads\novias_en_el_altraer_con_un_bestido.jpeg" alt="Vestido de Novia 1">
+                <img src="C:\Users\Jocelin Flores\Downloads\Firefly una novia con un vestido estilo princesa de disney , cuerpo completo 7848.jpg" alt="Vestido de Novia 2">
+            </div>
+            
+            <p>¡Elige el vestido de novia perfecto para tu gran día!</p>
+            <div class="nav">
+                <button onclick="empezarEncuesta()">Empezar Encuesta</button>
+            </div>
+        </div>
+
+        <div id="encuesta">
+            <h1>Examen de Estilo para Novias</h1>
+            <form id="examen">
+                <div class="question">
+                    <p>1. ¿Qué tipo de escote prefieres para tu vestido de novia?</p>
+                    <label><input type="radio" name="q1" value="a"> Corazón</label>
+                    <label><input type="radio" name="q1" value="b"> Cuadrado</label>
+                    <label><input type="radio" name="q1" value="c"> En V</label>
+                    <label><input type="radio" name="q1" value="d"> Ilusión</label>
+                </div>
+
+                <div class="question">
+                    <p>2. Verdadero o Falso: Los vestidos de seda deben guardarse en una funda transpirable.</p>
+                    <label><input type="radio" name="q2" value="true"> Verdadero</label>
+                    <label><input type="radio" name="q2" value="false"> Falso</label>
+                </div>
+
+                <div class="question">
+                    <p>3. ¿Qué tipo de falda prefieres?</p>
+                    <label><input type="radio" name="q3" value="a"> Corte A</label>
+                    <label><input type="radio" name="q3" value="b"> Sirena</label>
+                    <label><input type="radio" name="q3" value="c"> Princesa</label>
+                    <label><input type="radio" name="q3" value="d"> Tubo</label>
+                </div>
+
+                <div class="question">
+                    <p>4. Verdadero o Falso: Es mejor planchar un vestido de novia a alta temperatura.</p>
+                    <label><input type="radio" name="q4" value="true"> Verdadero</label>
+                    <label><input type="radio" name="q4" value="false"> Falso</label>
+                </div>
+
+                <div class="question">
+                    <p>5. ¿Qué es más influyente en la elección del vestido de novia?</p>
+                    <label><input type="radio" name="q5" value="a"> Tendencia de novia</label>
+                    <label><input type="radio" name="q5" value="b"> Presupuesto</label>
+                    <label><input type="radio" name="q5" value="c"> Estilo personal</label>
+                    <label><input type="radio" name="q5" value="d"> Opción de la familia y amigos</label>
+                </div>
+
+                <div class="question">
+                    <p>6. Verdadero o Falso: El vestido de novia tradicional es blanco porque simboliza la pureza y inocencia.</p>
+                    <label><input type="radio" name="q6" value="true"> Verdadero</label>
+                    <label><input type="radio" name="q6" value="false"> Falso</label>
+                </div>
+                
+                <div class="question">
+                    <p>7. ¿Cuál es el vestido más popular?</p>
+                    <label><input type="radio" name="q7" value="a"> Mermaid (cola de sirena)</label>
+                    <label><input type="radio" name="q7" value="b"> Princesa (con vuelo)</label>
+                    <label><input type="radio" name="q7" value="c"> Línea A (recto y ajustado)</label>
+                    <label><input type="radio" name="q7" value="d"> Imperio (con cintura alta)</label>
+                </div>
+
+                <div class="question">
+                    <p>8. Verdadero o Falso: El vestido de novia debe de combinar con el color de los zapatos del novio.</p>
+                    <label><input type="radio" name="q8" value="true"> Verdadero</label>
+                    <label><input type="radio" name="q8" value="false"> Falso</label>
+                </div>
+
+                <div class="question">
+                    <p>9. ¿Qué tipo de tela es ideal para un vestido de novia en verano?</p>
+                    <label><input type="radio" name="q9" value="a"> Seda</label>
+                    <label><input type="radio" name="q9" value="b"> Satén</label>
+                    <label><input type="radio" name="q9" value="c"> Organza</label>
+                    <label><input type="radio" name="q9" value="d"> Gasas</label>
+                </div>
+
+                <div class="question">
+                    <p>10. Verdadero o Falso: Los vestidos de novia con manga larga son más comunes que los sin manga.</p>
+                    <label><input type="radio" name="q10" value="true"> Verdadero</label>
+                    <label><input type="radio" name="q10" value="false"> Falso</label>
+                </div>
+                
+                <button type="button" onclick="calificar()">Enviar</button>
+                <button type="button" onclick="regresar()">Regresar</button>
+            </form>
+
+            <div id="resultado"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        function empezarEncuesta() {
+            document.getElementById('informacion').style.display = 'none';
+            document.getElementById('encuesta').style.display = 'block';
+        }
+
+        function regresar() {
+            document.getElementById('encuesta').style.display = 'none';
+            document.getElementById('informacion').style.display = 'block';
+            document.getElementById('resultado').innerHTML = ''; // Limpiar resultado al regresar
+        }
+    </script>
+</body>
+</html>
